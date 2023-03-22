@@ -16,7 +16,7 @@ list = [random.randint(10, 20) for _ in range(n)]
 print(list)
 count = 0
 for i in list:
-    if list[i] == x:
+    if i == x:
         count += 1
 
 print(f"число {x} встречается {count} раз")
