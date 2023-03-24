@@ -21,3 +21,4 @@ new_list = set(list_1).intersection(list_2)
 
 print(new_list)
 print()
+print()
