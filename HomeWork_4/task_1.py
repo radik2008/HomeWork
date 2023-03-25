@@ -20,4 +20,4 @@ print(set(list_2))
 new_list = set(list_1).intersection(list_2)
 
 print(new_list)
-print()
+
