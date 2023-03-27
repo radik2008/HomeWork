@@ -15,13 +15,15 @@ import random
 list = [random.randint(1, 100) for _ in range(n)]
 print(list)
 
-min_def = list[0] - x
+min_def = abs(list[0] - x)
 min_num = list[0]
 
 for i in list:
     if abs(i - x) < min_def:
         min_num = i
         min_def = abs(i - x)
+
+
 
 print(F"разница между элементами {min_def}")
 print(f"самый близкий по величине элемент {min_num}")
