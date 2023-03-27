@@ -20,6 +20,8 @@ def sum(n: int, m: int) -> int:
 
 
 
+
+
 start = time.time()
 print(sum(a, b))
 finish = time.time()
