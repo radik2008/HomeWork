@@ -18,7 +18,6 @@ def sum(n: int, m: int) -> int:
     else:
         return sum(n - 1, m + 1)
 
-
 start = time.time()
 print(sum(a, b))
 finish = time.time()
